@@ -74,7 +74,7 @@ accepts an exam score as input and prints out the corresponding grade
 
 def quiz():
 
-    score = int(input("Enter quiz score >>> "))
+	score = int(input("Enter quiz score >>> "))
 
     # 11 copies of 'A' to include the score 100
     # 'F' included as last item in string to accomodate score of 0
@@ -135,6 +135,7 @@ def name_calc():
     # to type the alphabet out again lol
     alphabet = alphabet.upper()
     enter_name = input('Enter name >>> ') 
+	new_variable = 'test'
 
     # This is the answer to exercise 6. Just had to employ an additional
     # strong method to remove any spaces between names
