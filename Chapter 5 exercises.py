@@ -135,7 +135,7 @@ def name_calc():
     # to type the alphabet out again lol
     alphabet = alphabet.upper()
     enter_name = input('Enter name >>> ') 
-	new_variable = 'test'
+    new_variable = 'test'
 
     # This is the answer to exercise 6. Just had to employ an additional
     # strong method to remove any spaces between names
