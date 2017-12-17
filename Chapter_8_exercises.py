@@ -377,7 +377,7 @@ The basic idea for converting the image is to go through it pixel by pixel and
 convert each one from color to an appropriate shade of gray. A gray pixel created
 by setting its red, green, and blue components to have the same brightness. So,
 color_rgb(0,0,0) is black, color_rgb(255, 255, 255) is white, and color_rgb(127,
-127,127) is a gray "halfway" between. You should use a weighted average of the
+127,127) is a gray "halfway" betsween. You should use a weighted average of the
 original RGB values to determine the brightness of the gray. Here is the
 pseudocode for the grayscale algorithm:
 
@@ -394,12 +394,12 @@ for each row in the image:
 from graphics import *
 
 #####################
-# THIS IS GARBAGE SEE BELOW
+# THIS IS GARBAGE SEEd BELOW
 ##############################
 
 def new_test():
 
-	print('Am I successful?')
+	print('Am I successful????')
 
 
 
