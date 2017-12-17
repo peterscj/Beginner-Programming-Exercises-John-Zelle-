@@ -397,10 +397,12 @@ from graphics import *
 # THIS IS GARBAGE SEE BELOW
 ##############################
 
-'''
-test
+def new_test():
 
-'''
+	print('Am I successful?')
+
+
+
 ##def m():
 ##
 ##    name = 'Window'
